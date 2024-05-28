@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz 1 mês de namoro, Fefinha</title>
+
+    <style>
+        body {
+            background-color: #FC98A8;
+            margin: 0; 
+            padding: 0; 
+        }
+
+        .painel {
+            margin: auto;
+            background-color: white;
+            max-width: 50%;
+            border-radius: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+            padding-top: 1px;
+            margin-top: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #btn {
+            height: 40px;
+            width: 80px;
+            background-color: #FA527C;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            display: block;
+            margin: 20px auto 0 auto;
+            text-decoration: none;
+        }
+
+        #btn:hover {
+            background-color: #FF6B8A;
+            cursor: pointer;
+        }
+
+        a:focus, a:active {
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media only screen and (max-width: 926px) {
+            .painel {
+                max-width: 80%;
+            }
+        }
+
+        @media only screen and (max-width: 428px) {
+            .painel {
+                padding-top: 20px;
+            }
+        }
+
+        @media only screen and (max-width: 375px) {
+            .painel {
+                border-radius: 10px;
+            }
+
+            #btn {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <script>
+        function showPopup() {
+            var imgURL = "FefinhaLinda.jpeg";
+            var popupWindow = window.open(imgURL, "_blank", "width=600,height=400");
+        }
+    </script>
+
+</head>
+<body>
+
+    <div class="painel">
+        <h1>Feliz 1 mês de namoro, Fefinha</h1>
+
+        <img src="https://gifman.net/wp-content/uploads/2019/06/ursinho-fofo-apaixonado.gif" alt="Gif fofo">
+
+        <h2>I got you a surprise</h2>
+
+        <button id="btn" onclick="showPopup()">Click me</button>
+        
+    </div>
+    
+</body>
+</html>
